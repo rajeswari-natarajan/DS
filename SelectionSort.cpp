@@ -13,7 +13,8 @@ void display()
 }
 void selectionSort()
 {
-	int m,i,j;
+	int i,j;
+	value m;
 	for (i=1;i<=noItems-1;i++)
 	{
 		m=i;
