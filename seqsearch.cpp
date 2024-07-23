@@ -39,7 +39,7 @@ int main()
 {
 	get();
 	nrSeqSearch();
-	int Loc=recSeqSearch(noItems);
+	int Loc=recSeqSearch(noItems-1);
 	if (Loc!=-1)
 		cout<<"Key Found in Location "<<Loc<<endl;
 	else
