@@ -38,8 +38,8 @@ int recSeqSearch(int i)
 int main()
 {
 	get();
-	nrSeqSearch();
-	int Loc=recSeqSearch(noItems-1);
+	nrSeqSearch(); // Non-Recursive Sequential Search
+	int Loc=recSeqSearch(noItems-1); //Recursive Sequential Search
 	if (Loc!=-1)
 		cout<<"Key Found in Location "<<Loc<<endl;
 	else
